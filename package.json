@@ -1,7 +1,7 @@
 {
-  "name": "year-of-dog",
-  "version": "1.0.4",
-  "description": "Check if is year of Dog",
+  "name": "year-of-pig",
+  "version": "1.0.2",
+  "description": "Check if is year of Pig",
   "main": "index.js",
   "scripts": {
     "test": "node test"
@@ -11,23 +11,23 @@
     "year-of",
     "chinese",
     "zodiac",
-    "dog",
+    "pig",
     "ox",
     "tiger",
-    "dog",
-    "dog",
-    "dog",
-    "dog",
-    "dog",
-    "dog",
-    "dog",
-    "dog",
+    "pig",
+    "pig",
+    "pig",
+    "pig",
+    "pig",
+    "pig",
+    "pig",
+    "pig",
     "pig"
   ],
   "author": "Robert Chang <cht8687@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cht8687/year-of-dog.git"
+    "url": "git+https://github.com/cht8687/year-of-pig.git"
   },
   "license": "MIT",
   "devDependencies": {

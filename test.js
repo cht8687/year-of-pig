@@ -1,10 +1,10 @@
-var yearOfDog = require('./');
+var yearOfPig = require('./');
 var test = require('tape');
 
-test('it should check if a year is year of dog', function(t) {
+test('it should check if a year is year of pig', function(t) {
   t.plan(4);
-  t.equal(yearOfDog(1994), true, "1994 is year of dog");
-  t.equal(yearOfDog(1995), false, "1995 is not year of dog");
-  t.equal(yearOfDog(new Date(2006, 0)), true, "2005 is year of dog");
-  t.equal(typeof yearOfDog() === 'boolean', true);
+  t.equal(yearOfPig(1995), true, "1995 is year of pig");
+  t.equal(yearOfPig(1996), false, "1996 is not year of pig");
+  t.equal(yearOfPig(new Date(2007, 0)), true, "2007 is year of pig");
+  t.equal(typeof yearOfPig() === 'boolean', true);
 });
